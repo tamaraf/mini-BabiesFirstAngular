@@ -5,5 +5,6 @@ app.controller('mainCtrl', function($scope){
 
 	$scope.addFriend = function(name) {
 		$scope.friends.push(name);
+		$scope.new = '';
 	};
 });
